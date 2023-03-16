@@ -1,0 +1,73 @@
+h2 {
+  font-family: 'Lobster Two', cursive;
+  color: rgb(22, 97, 97);
+}
+
+i {
+  color: rgb(22, 97, 97);
+  font-size: 50px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: rgb(248, 245, 245);
+  padding: 30px;
+  border: 5px solid lightgrey;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 50px 0;
+}
+
+.container {
+  /* width: 700px; */
+  margin: 0 auto;
+  background-color:  rgb(173, 126, 126);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.list-inline {
+  padding: 0;
+}
+.list-inline li {
+  display: inline;
+}
+
+.btn-blue {
+  background-color: rgb(114, 141, 141);
+  color:white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(9, 97, 97);
+}
+
+body {
+  background-color: whitesmoke
+}
